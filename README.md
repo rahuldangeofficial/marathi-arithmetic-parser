@@ -8,7 +8,7 @@ This is a parser built in JavaScript that can parse arithmetic operations writte
 
 ## Input 1
 
-    "10 बेरीज 2 गुणाकार 3 वजाबाकी 4 भागाकार 2"
+    "10 अधिक 2 गुणिले 3 वजा 4 भागिले 2"
 
 This input can be interpreted as the expression:
 
@@ -18,7 +18,7 @@ and the output will be 14
 
 ## Input 2
 
-    "10.5 बेरीज 2 गुणाकार (3 वजाबाकी 4) भागाकार 2.5"
+    "10.5 अधिक 2 गुणिले (3 वजा 4) भागिले 2.5"
 
 This input can be interpreted as the expression: 
     
@@ -28,7 +28,7 @@ and the output will be 9.7
 
 ## Input 3
 
-    "10.5बेरीज2गुणाकार(3वजाबाकी4)भागाकार2.5"
+    "10.5अधिक2गुणिले(3वजा4)भागिले2.5"
 
 This input can be interpreted as the expression: 
     
@@ -38,7 +38,7 @@ and the output will be 9.7
 
 ## Input 4
 
-    "16 वजाबाकी 8 बेरीज 14 भागाकार 2"
+    "16 वजा 8 अधिक 14 भागिले 2"
 
 This input can be interpreted as the expression: 
 
@@ -48,7 +48,7 @@ and the output will be 15
 
 ## Input 5
 
-    "16 वजाबाकी (8 बेरीज 14) भागाकार 2"
+    "16 वजा (8 अधिक 14) भागिले 2"
 
 This input can be interpreted as the expression: 
     
@@ -58,7 +58,7 @@ and the output will be 5
 
 ## Input 6
 
-    "16.5बेरीज2.5गुणाकार(3वजाबाकी4)भागाकार2.5"
+    "16.5अधिक2.5गुणिले(3वजा4)भागिले2.5"
 
 This input can be interpreted as the expression: 
     
@@ -68,7 +68,7 @@ and the output will be 15.5
 
 ## Input 7
 
-    "1बेरीज2बेरीज3"
+    "1अधिक2अधिक3"
 
 This input can be interpreted as the expression: 
     

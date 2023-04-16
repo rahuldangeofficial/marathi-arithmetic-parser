@@ -63,7 +63,7 @@ class Parser {
   }
 
   replaceWords(str) {
-    const wordsToReplace = ["बेरीज", "वजाबाकी", "गुणाकार", "भागाकार"];
+    const wordsToReplace = ["अधिक", "वजा", "गुणिले", "भागिले"];
     const replacementWords = ["A", "S", "M", "D"];
     for (let i = 0; i < wordsToReplace.length; i += 1) {
       str = str.replaceAll(wordsToReplace[i], replacementWords[i]);
