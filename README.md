@@ -4,8 +4,6 @@ This is a parser built in JavaScript that can parse arithmetic operations writte
 
 ## [Try Now](https://rahuldangeofficial.github.io/marathi-arithmetic-parser)
 
----
-
 ## Example Inputs and Outputs
 
 ## Input 1
@@ -18,8 +16,6 @@ This input can be interpreted as the expression:
 
 and the output will be 14
 
----
-
 ## Input 2
 
     "10.5 बेरीज 2 गुणाकार (3 वजाबाकी 4) भागाकार 2.5"
@@ -29,8 +25,6 @@ This input can be interpreted as the expression:
     "10.5 + 2 * (3 - 4) / 2.5"
 
 and the output will be 9.7
-
----
 
 ## Input 3
 
@@ -42,8 +36,6 @@ This input can be interpreted as the expression:
 
 and the output will be 9.7
 
----
-
 ## Input 4
 
     "16 वजाबाकी 8 बेरीज 14 भागाकार 2"
@@ -53,8 +45,6 @@ This input can be interpreted as the expression:
     "16 - 8 + 14 / 2" 
 
 and the output will be 15
-
----
 
 ## Input 5
 
@@ -66,8 +56,6 @@ This input can be interpreted as the expression:
 
 and the output will be 5
 
----
-
 ## Input 6
 
     "16.5बेरीज2.5गुणाकार(3वजाबाकी4)भागाकार2.5"
@@ -78,8 +66,6 @@ This input can be interpreted as the expression:
     
 and the output will be 15.5
 
----
-
 ## Input 7
 
     "1बेरीज2बेरीज3"
@@ -89,5 +75,3 @@ This input can be interpreted as the expression:
     "1 + 2 + 3"
 
 and the output will be 6
-
----
